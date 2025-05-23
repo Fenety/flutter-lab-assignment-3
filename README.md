@@ -1,7 +1,0 @@
-# A mini Flutter project 
-
-This Flutter application is a simple yet well-structured mobile app that showcases a list of albums and their corresponding photos using data fetched from the JSONPlaceholder API. It is designed to demonstrate clean architectural practices using the MVVM (Model-View-ViewModel) pattern and incorporates the Bloc (Business Logic Component) for effective state management. The app starts by displaying a scrollable list of albums, each showing its title and a thumbnail photo. These thumbnails are derived from the first photo in each album, retrieved via the /photos endpoint.
-
-Users can tap on any album item to navigate to a detailed screen using the go_router package for routing. The detail screen presents complete information about the selected album, including its ID, title, a mock photographer name and date taken (as the actual API does not provide this data), the number of photos it contains, and a full list of those photos with additional details.
-
-The application handles network requests using the http package and implements clear loading indicators and user-friendly error messages, including a retry mechanism in case of failures. The UI is built with clean, responsive Flutter widgets that separate presentation from logic, making the codebase easy to maintain and scale. This project not only demonstrates effective data fetching and screen navigation but also highlights error handling and architectural discipline suitable for real-world Flutter development.
